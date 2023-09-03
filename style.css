@@ -179,3 +179,48 @@ p {
     font-weight: 400;
     line-height: normal;
 }
+
+@media (max-width: 420px) {
+
+    .top-container {
+        padding-left: 4vw;  
+        width: 310px;     
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 75px; /* 117.188% */
+    }
+
+    .title-text {
+        padding-top: 70px;
+        padding-bottom: 120px;
+        width: 250px;
+    }
+
+    .title-text h2 {
+        padding-top: 40px;
+        font-size: 24px;
+    }   
+
+    .first-logo {
+        position: absolute;
+        right: 12px;
+        bottom: 150px;
+        width: 35px;
+    }
+    
+    .second-logo {
+        position: absolute;
+        right: 12px;
+        bottom: 80px;
+        width: 35px;
+    }
+    
+    .third-logo {
+        position: absolute;
+        right: 12px;
+        bottom: 16px;
+        width: 35px;
+    }
+}
