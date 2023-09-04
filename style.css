@@ -4,18 +4,7 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 
-/* div{
-    display: block;
-} */
-
 div {color: white;}
-
-.main-container {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    flex-flow: column wrap;
-}
 
 .top-container {
     background-color: black;
@@ -105,37 +94,37 @@ h3 {
 
 .first-logo {
     position: absolute;
-    right: 74px;
+    right: 34px;
     bottom: 187px;
 }
 
 .second-logo {
     position: absolute;
-    right: 74px;
+    right: 34px;
     bottom: 104px;
 }
 
 .third-logo {
     position: absolute;
-    right: 67px;
+    right: 27px;
     bottom: 16px;
 }
 
 .fourth-logo {
     position: absolute;
-    right: 74px;
+    right: 34px;
     top: 22px;
 }
 
 .fiveth-logo {
     position: absolute;
-    right: 69px;
+    right: 29px;
     top: 85px;
 }
 
 .sixth-logo {
     position: absolute;
-    right: 74px;
+    right: 34px;
     top: 157px;
 }
 
@@ -158,8 +147,8 @@ p {
 
 .grid-skills {
     display: grid;
-    grid-template-columns: 517px 517px;
-    grid-template-rows: 100px 417px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 4fr;
     grid-column-gap: 151px;
 }
 
@@ -183,13 +172,32 @@ p {
 @media (max-width: 420px) {
 
     .top-container {
-        padding-left: 4vw;  
-        width: 100%;     
+        padding-left: 4vw;      
     }
 
     h1 {
         font-size: 64px;
         line-height: 75px; /* 117.188% */
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .intro{
+        font-size: 24px;
+    }
+
+    .skill-container h2 {
+        font-size: 48px;
+    }
+
+    p{
+        font-size: 24px;
     }
 
     .title-text {
@@ -204,23 +212,46 @@ p {
     }   
 
     .first-logo {
-        position: absolute;
         right: 12px;
         bottom: 150px;
         width: 35px;
     }
     
     .second-logo {
-        position: absolute;
         right: 12px;
         bottom: 80px;
         width: 35px;
     }
     
     .third-logo {
-        position: absolute;
         right: 12px;
         bottom: 16px;
         width: 35px;
+    }
+
+    .fourth-logo {
+        right: 12px;
+        width: 35px;
+        top: 13px;
+    }
+    
+    .fiveth-logo {
+        right: 8px;
+        width: 45px;
+        top: 65px;
+    }
+    
+    .sixth-logo {
+        right: 12px;
+        top: 126px;
+        width: 35px;
+    }    
+
+    .grid-skills {
+        grid-column-gap: 30px;
+    }
+
+    .copyright {
+        font-size: 16px;
     }
 }
