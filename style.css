@@ -4,13 +4,24 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 
+/* div{
+    display: block;
+} */
+
 div {color: white;}
+
+/* .main-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-flow: column wrap;
+} */
 
 .top-container {
     background-color: black;
     padding-left: 10vw;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 75px;
     position: relative;
 }
 
@@ -43,7 +54,6 @@ div {color: white;}
 
 .title-text{
     width: 50%;
-    
 }
 
 h1 {
@@ -169,7 +179,14 @@ p {
     line-height: normal;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 1200px) and (min-width: 481px)
+    {
+        h1 {
+            font-size: 96px;
+        }
+    }
+
+@media (max-width: 480px) {
 
     .top-container {
         padding-left: 4vw;      
@@ -203,7 +220,6 @@ p {
     .title-text {
         padding-top: 70px;
         padding-bottom: 120px;
-        width: 250px;
     }
 
     .title-text h2 {
